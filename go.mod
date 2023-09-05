@@ -1,6 +1,8 @@
 module github.com/rclone/go-proton-api
 
-go 1.18
+go 1.22.0
+
+toolchain go1.23.5
 
 require (
 	github.com/Masterminds/semver/v3 v3.2.0
