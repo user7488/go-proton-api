@@ -11,7 +11,7 @@ import (
 	"strings"
 
 	"github.com/gin-gonic/gin"
-	"github.com/henrybear327/go-proton-api"
+	"github.com/rclone/go-proton-api"
 )
 
 func newProxy(proxyOrigin, base, path string, transport http.RoundTripper) http.HandlerFunc {

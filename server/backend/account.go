@@ -6,7 +6,7 @@ import (
 	"github.com/ProtonMail/gopenpgp/v2/crypto"
 	"github.com/bradenaw/juniper/xslices"
 	"github.com/google/uuid"
-	"github.com/henrybear327/go-proton-api"
+	"github.com/rclone/go-proton-api"
 )
 
 type account struct {

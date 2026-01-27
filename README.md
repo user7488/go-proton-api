@@ -1,8 +1,8 @@
 # Go Proton API
 
-<a href="https://github.com/henrybear327/go-proton-api/actions/workflows/check.yml"><img src="https://github.com/henrybear327/go-proton-api/actions/workflows/check.yml/badge.svg?branch=master" alt="CI Status"></a>
-<a href="https://pkg.go.dev/github.com/henrybear327/go-proton-api"><img src="https://pkg.go.dev/badge/github.com/henrybear327/go-proton-api" alt="GoDoc"></a>
-<a href="https://goreportcard.com/report/github.com/henrybear327/go-proton-api"><img src="https://goreportcard.com/badge/github.com/henrybear327/go-proton-api" alt="Go Report Card"></a>
+<a href="https://github.com/rclone/go-proton-api/actions/workflows/check.yml"><img src="https://github.com/rclone/go-proton-api/actions/workflows/check.yml/badge.svg?branch=master" alt="CI Status"></a>
+<a href="https://pkg.go.dev/github.com/rclone/go-proton-api"><img src="https://pkg.go.dev/badge/github.com/rclone/go-proton-api" alt="GoDoc"></a>
+<a href="https://goreportcard.com/report/github.com/rclone/go-proton-api"><img src="https://goreportcard.com/badge/github.com/rclone/go-proton-api" alt="Go Report Card"></a>
 <a href="LICENSE"><img src="https://img.shields.io/github/license/ProtonMail/go-proton-api.svg" alt="License"></a>
 
 This repository holds Go Proton API, a Go library implementing a client and development server for (a subset of) the Proton REST API.
@@ -20,8 +20,8 @@ Most of the integration tests run locally. The ones that interact with Proton se
 
 ## Contribution
 
-This library is forked from [go-proton-api](https://github.com/ProtonMail/go-proton-api) in order to support the [Proton API Bridge](https://github.com/henrybear327/Proton-API-Bridge) project. 
+This library is forked from [go-proton-api](https://github.com/henrybear327/go-proton-api) which in turn was forked from [go-proton-api](https://github.com/ProtonMail/go-proton-api) and  in order to support the [Proton API Bridge](https://github.com/rclone/Proton-API-Bridge) project. 
 
 Contribution is welcomed! 
 
-The intention to upstream the changes are planned, once the changes to the codebase has stabalized. 
+The intention to upstream the changes are planned, once the changes to the codebase has stabilised. 

@@ -13,7 +13,7 @@ import (
 	"github.com/ProtonMail/gluon/rfc822"
 	"github.com/ProtonMail/gopenpgp/v2/crypto"
 	"github.com/gin-gonic/gin"
-	"github.com/henrybear327/go-proton-api"
+	"github.com/rclone/go-proton-api"
 	"golang.org/x/exp/slices"
 )
 

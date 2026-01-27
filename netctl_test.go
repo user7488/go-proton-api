@@ -8,7 +8,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/henrybear327/go-proton-api"
+	"github.com/rclone/go-proton-api"
 )
 
 func TestNetCtl_ReadLimit(t *testing.T) {
