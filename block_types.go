@@ -14,20 +14,26 @@ type Block struct {
 	SignatureEmail string // Email used to sign the block
 }
 
+type BlockVerifier struct {
+	Token string
+}
+
 type BlockUploadReq struct {
 	AddressID  string
 	ShareID    string
 	LinkID     string
 	RevisionID string
+	VolumeID   string `json:",omitempty"`
 
 	BlockList []BlockUploadInfo
 }
 
 type BlockUploadInfo struct {
 	Index        int
-	Size         int64
 	EncSignature string
-	Hash         string
+	Verifier     BlockVerifier
+	Size         int64  `json:",omitempty"`
+	Hash         string `json:",omitempty"`
 }
 
 type BlockUploadLink struct {
